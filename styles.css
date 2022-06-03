@@ -418,4 +418,55 @@ footer {
         top:65px;
     }
     /*main part for mobile is finished*/
+    footer {
+        width:200%;
+        height:769px;
+        top:56px;
+    }
+    .thin__rectangle {
+        width:90%;
+        left:8px;
+    }
+    .language-item {
+        width:173px;
+    }
+    .social-logo {
+        left:8px;
+    }
+    .first {
+        margin-top:319px;
+        left:0px;
+    }
+    .second {
+        margin-top:358px;
+        left:0px;
+    }
+    .third {
+        margin-top:397px;
+        left:0px;
+    }
+    .fourth {
+        margin:436px 239px 0px 8px;
+    }
+    .fifth {
+        margin:475px 271px 0px 8px;
+    }
+    .sixth {
+        margin:514px 285px 0px 8px;
+    }
+    .thin__rectangle-second {
+        top:274px;
+        width:90%;
+        left:8px;
+    }
+    .information__one {
+        margin:642px 161px 0px 9px;
+    }
+    .information__two {
+        margin:679px 275px 0px 9px;
+    }
+    .information__three {
+        margin:716px 280px 0px 9px;
+    }
+    /*footer for mobile is finished*/
 }
