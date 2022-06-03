@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto';
+    font-size: 400;
+    white-space: nowrap;
+    box-sizing:border-box;
+}
+:root {
+    --main-color:#FFFFFF;
+    --main-text-color:#1D1D1D;
+    --success-color:#57AD56;
+    --rectangle-color:#757575;
+    --dark-grey-color:#262626;
+    --bg-color:#E5E5E5;
+}
+body, div, h1, h2, ul, ol, p, hr{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:var(--main-color);
+    padding:0;
+    margin:0;
+}
+.btn {
+    margin-top:16px;
+    margin-bottom:16px;
+    font-size: 11px;
+    padding:14px 15px 13px 15px;
+    line-height:13px;
+    border-radius:2px;
+    white-space:nowrap;
+}
+.information__text {
+    position:absolute;
+    font-size:13px;
+    line-height:15px;
+    color:var(--main-color);
+}
+.extra {
+    position:absolute;
+    font-size:11px;
+    line-height:12px;
+    color:var(--main-color);
+}
