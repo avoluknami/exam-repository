@@ -161,3 +161,84 @@ header {
     margin-left:420px;
 }
 /*the main part for desktop is finished*/
+footer {
+    display:flex;
+    position: relative;
+    background-color:var(--dark-grey-color);
+    width:100vw;
+    height:443px;
+    top:80px;
+}
+.second-logo__item {
+    height:19px;
+    margin:56px 0px 0px 81px;
+}
+.thin__rectangle {
+    position: absolute;;
+    height:1px;
+    width:85%;
+    margin-top:116px;
+    background-color:grey;
+    left:81px;
+}
+.thin__rectangle-second {
+    position:absolute;
+    height:1px;
+    width:85%;
+    margin-top:337px;
+    background-color:grey;
+    left:81px;
+}
+.language-item {
+    position:absolute;
+    width:227px;
+    height:40px;
+    color:var(--main-color);
+    background-color:#3B3B3B;
+    border-radius:2px;
+    margin-top:149px;
+    left:81px;
+    padding:13px 0px 12px 48px;
+}
+.shape {
+    position:absolute;
+    height:15px;
+    margin-top:162px ;
+    left:105px;
+}
+.social-logo {
+    position:absolute;
+    margin-top:222px;
+    left:81px;
+}
+.first{
+    margin:156px  628px 0px 405px;
+}
+.second {
+    margin:195px 566px 0px 405px;
+}
+.third {
+    margin:234px 549px 0px 405px;
+}
+.fourth {
+    margin:156px 175px 261px 729px;
+}
+.fifth {
+    margin:195px 207px 222px 729px;
+}
+.sixth {
+    margin:234px 221px 183px 729px;
+}
+.seventh {
+    margin:273px 217px 144px 729px;
+}
+.information__one{
+    margin:378px 0px 0px 81px;
+}
+.information__two{
+    margin:378px 0px 0px 462px;
+}
+.information__three {
+    margin:378px 0px 0px 729px;
+}
+/*footer for desktop is finished*/
