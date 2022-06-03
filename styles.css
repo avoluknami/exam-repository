@@ -306,4 +306,41 @@ footer {
         left:264px;
     }
     /*main part fot tablet is finished*/
+    footer {
+        margin-top:48px;
+    }
+    .food-photo {
+        width:100vw;
+    }
+    .language-item {
+        width:176px;
+        left:8px;
+    }
+    .shape {
+        left:16px;
+    }
+    .first , .second , .third{
+        margin-left:30px;
+    }
+    .fourth , .fifth , .sixth {
+        margin-left:520px;
+    }
+    .thin__rectangle {
+        width:85%;
+        margin-left:8px;
+    }
+    .information__one {
+        margin:380px 0px 0px 8px;
+    }
+    .information__two {
+        margin:380px 0px 0px 264px;
+    }
+    .information__three {
+        margin:380px 0px 0px 520px;
+    }
+    .thin__rectangle , .thin__rectangle-second{
+        width:100%;
+        left: 8px;
+    }
+    /*footer for tablet is finished*/
 }
