@@ -344,3 +344,22 @@ footer {
     }
     /*footer for tablet is finished*/
 }
+@media (max-width:320px) {
+    .basket {
+        display:none;
+    }
+    .food-photo {
+        display: none;
+    }
+    .mobile-photo {
+        display: flex;
+        width:320px;
+    }
+    .btn-sign {
+        margin:16px 0px 16px 46px;
+    }
+    .btn-register {
+        margin:16px 4px 16px 12px;
+    }
+    /*header for mobile is finished*/
+}
