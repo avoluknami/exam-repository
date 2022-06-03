@@ -242,3 +242,15 @@ footer {
     margin:378px 0px 0px 729px;
 }
 /*footer for desktop is finished*/
+@media (max-width: 768px) {
+    .first-logo__item {
+        margin:16px 0px 16px 8px;
+    }
+    .btn-sign {
+        margin:16px 0px 16px 10px;
+    }
+    .btn-register {
+        margin:16px 0px 16px 30px;
+    }
+    /*header for tablet is finished*/
+}
