@@ -34,4 +34,130 @@ header {
     fill: green;
 }
 /*header for desktop is finished*/
-
+.food-photo {
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 364px;
+    position: relative;
+}
+.mobile-photo {
+    display:none
+}
+.square {
+    position:absolute;
+    background-color:var(--main-color);
+    width:389px;
+    height:204px;
+    top:152px;
+    margin-left:81px;
+    box-shadow:0px 0px 16px 0px var(--rectangle-color);
+    border-radius:2px;
+}
+.restaurant__name {
+    color:var(--text-color);
+    margin:38px 38px 0px 38px;
+    position:absolute;
+    font-weight:normal;
+    font-size:36px;
+    color:var(--main-text-color);
+}
+.europe {
+    color:#626262;
+    position:absolute;
+    font-size:14px;
+    margin:142px 179px 0px 38px;
+}
+.time {
+    background-color:var(--dark-grey-color);
+    border:1px solid var(--dark-grey-color);
+    color:var(--main-color);
+    position:absolute;
+    border-radius:16px;
+    margin:134px 32px 0px 260px;
+    height:32px;
+    padding:8px 16px 8px 16px;
+}
+.section-main__section {
+    top:436px;
+    cursor:pointer;
+    height:80px;
+    display: flex;
+    background-color:var(--main-color);
+    padding:32px 0px 29px 81px;
+}
+.nav-bar ul {
+    display:flex;
+    gap:40px;   
+}
+.nav-bar li {
+    list-style:none;
+    padding: 0;
+}
+.nav-bar li a {
+    font-size:16px;
+    line-height:18px;
+    text-decoration:none;
+    display: block;
+    color:grey;
+}
+.menu-focus :focus {
+    color:green;
+}
+.section-menu__item {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-row-gap: 32px;
+    padding: 32px 0 80px 81px ; 
+}
+.snacks{
+    font-size: 22px;
+    line-height: 34px;    
+    color:var(--main-text-color);
+    font-weight: normal;
+    margin:50px 0px 0px 81px;
+}
+.first-rectangle {
+    display:none;
+}
+.rectangle--card {
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 180px;
+    background-color:#fff;
+    border:2px solid  #757575 ;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.salad-name{
+    position:absolute;
+    font-size: 16px;
+    padding: 16px 0px 0px 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.card__ingridients{
+    position:absolute;
+    color: #626262;
+    font-size: 13px;
+    line-height: 21px;
+    margin:44px 0px 0px 16px;
+}
+.coin{
+    position:absolute;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    position: relative;
+    left: 8px;
+    bottom: 16px;
+    position: absolute;
+}
+.photo-salad {
+    position:absolute;
+    width: 30%;
+    height: 100%;
+    margin-left:420px;
+}
+/*the main part for desktop is finished*/
