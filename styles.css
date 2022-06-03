@@ -253,4 +253,57 @@ footer {
         margin:16px 0px 16px 30px;
     }
     /*header for tablet is finished*/
+    .food-photo {
+        width:100vw;
+    }
+    .square {
+        width:432px;
+        height:204px;
+        margin-left:8px;
+        top:152px;
+    }
+    .restaurant__name {
+        margin:38px 68px 0px 48px;
+    }
+    .section-main__section {
+        position:absolute;
+        padding:32px 155px 0px 8px;
+        top:436px;
+    }
+    hr{
+        position:absolute;
+        width:100vw;
+        margin-top:80px;
+    }
+    .snacks  {
+        position:absolute;
+        top:500px;
+        margin-left:8px;
+    }
+    .rectangle--card {
+        position: relative;
+        width:99%;
+        height:160px;
+        top:135px;
+    }
+    .coin {
+        margin-left:8px;
+    }
+    .photo-salad {
+        margin-left:552px;
+    }
+    .section-menu__item {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 32px 8px 48px 8px;
+        gap:48px;
+    }
+    .second-logo__item {
+        height:19px;
+        margin:56px 0px 0px 8px;
+    }
+    .first , .second , .third {
+        left:264px;
+    }
+    /*main part fot tablet is finished*/
 }
