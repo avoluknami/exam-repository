@@ -1,1 +1,37 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    cursor:pointer;
+}
+.first-logo__item{
+    height: 12px;
+    width:119px;
+    top:30px;
+    margin-left:81px;
+}
+.header-wrapper{
+    background-color:var(--main-color);
+    align-items: center;
+    display: flex;
+}
+.btn-sign {
+    color:var(--text-color);
+    background-color:var(--main-color);
+    border: 1px solid #E0E0E0;
+    margin:16px 0px 16px 805px;
+}
+.btn-register {
+    color:var(--main-color);
+    background-color:var(--dark-grey-color);
+    border:1px var(--dark-grey-color);
+    margin:16px 0px 16px 30px;
+}
+.basket {
+    margin:16px 97px 16px 16px;
+}
+.basket:hover {
+    fill: green;
+}
+/*header for desktop is finished*/
 
